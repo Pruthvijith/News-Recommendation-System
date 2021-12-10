@@ -1,1 +1,20 @@
 # News-Recommendation-System
+
+iPrint is an upcoming media house in India that offers media and information services to the people. The company’s business extends across a wide range of media, including news and information services on sports, weather, education, health, research, stocks and healthcare. Over the years, through its online application, iPrint has been efficiently delivering news and information to the common people.  However, with time and technological advancements, several new competitors of iPrint have emerged in the market. Hence, it has decided to begin providing a more personalised experience to its customers.
+
+Till date, iPrint was managing its customer base by only recommending the most popular and similar news articles to what the user has already read or watched. However, the recommended news articles were often not relevant to the majority of the users. It was not able to recommend any new content to its customers, and gradually, the company started losing such users, which eventually resulted in immense revenue loss. 
+
+iPrint being a cutting-edge company, is trying to solve this issue of revenue leakage by personalising user tastes and introducing new content to its users at the start of the day on the home page of the application. iPrint is planning to assess these recommendations by tracking whether the user clicks on those items or not. Moreover, once the user clicks on any news item A, it wants to recommend news similar to the news A, at the bottom of the page of the news item A. 
+
+Now, let's understand what iPrint is trying to achieve here. By, recommending new items to the users at the start of the day, it is trying to understand if the user has new interests or not. Now, if the user clicks on the new item A and then also on subsequent items recommended at the bottom of the news item A, then iPrint can infer that the topic/ genre of the new item is something of user interest.
+
+We need to build a system that would recommend relevant news articles to the customers based on their search history and preferences. 
+
+So the problem statement can be divided into two parts discussed below. Of the numerous news articles available on its app about sports, politics, technology and many others. 
+
+We have to identify and build an appropriate recommendation system that would:
+
+1)Recommend new top 10 relevant articles to a user when he visits the app at the start of the day
+2)Recommend top 10 similar news articles that match the ones clicked by the user. 
+
+System should not recommend any news article that has been pulled out from the app or has already been seen by the user. In addition, only the articles that are written in the English language must be considered for content-based recommendations. The final generated list must contain the names of the recommended articles, along with their IDs
